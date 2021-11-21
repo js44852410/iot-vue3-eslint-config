@@ -1,0 +1,16 @@
+{
+  "name": "iot-vue3-eslint-config",
+  "version": "1.0.0",
+  "description": "IoT vue3 eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "js44852410",
+  "license": "ISC",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js44852410/iot-vue3-eslint-config.git"
+  }
+}
