@@ -92,7 +92,7 @@ module.exports = {
 
     // require the use of === and !==
     // https://eslint.org/docs/rules/eqeqeq
-    eqeqeq: [, 'always', { null: 'ignore' }],
+    eqeqeq: ['error', 'always', { null: 'ignore' }],
 
     // Require grouped accessor pairs in object literals and classes
     // https://eslint.org/docs/rules/grouped-accessor-pairs
