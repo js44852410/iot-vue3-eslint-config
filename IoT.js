@@ -17,9 +17,6 @@ module.exports = {
   },
   rules: {
 
-    // 使用window版回车
-    'linebreak-style': ['error', 'window'],
-
     // 禁止对函数参数再赋值
     'no-param-reassign': 'off',
 
@@ -161,7 +158,7 @@ module.exports = {
       rules: {
         indent: 'off',
         'vue/script-indent': ['error', 2, { baseIndent: 1 }],
-        
+
         // v-model
         'vue/no-v-model-argument': 'off',
 
