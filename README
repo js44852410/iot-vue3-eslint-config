@@ -12,6 +12,6 @@
 ```js
 extends: [
     ...
-    require.resolve('iot-vue3-eslint-config')
+    'iot-vue3-eslint-config'
 ]
 ```
