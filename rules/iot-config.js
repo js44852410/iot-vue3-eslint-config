@@ -66,9 +66,6 @@ module.exports = {
     // 禁止循环体只允许一次迭代
     'no-unreachable-loop': 'error',
 
-    // 禁止重复导入
-    // 'import/no-duplicates': 'error',
-
     // 禁止不必要地使用计算属性键
     'no-useless-computed-key': 'warn',
 
