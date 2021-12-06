@@ -1,10 +1,10 @@
-# iot-vue3-eslint-config
+# @lfiot/eslint-config-vue3
 
 ## 使用方法
 
 1. 安装该配置文件
 
-`npm install iot-vue3-eslint-config`
+`npm install @lfiot/eslint-config-vue3`
 
 2. 在项目的`.eslintrc.js` 的 `extends`中添加配置
 
@@ -12,7 +12,7 @@
 ```js
 extends: [
     ...
-    'iot-vue3-eslint-config'
+    require.resolve('@lfiot/eslint-config-vue3')
 ]
 ```
 
