@@ -47,12 +47,7 @@ module.exports = {
       '\\.(coffee|scss|css|less|hbs|svg|json)$',
     ],
   },
-  rules: {
-    'import/extensions': ['error', 'always', {
-      'js': 'never',
-      'vue': 'never'
-    }]
-  },
+  rules: {},
   overrides: [
     {
       files: ['*.vue'],

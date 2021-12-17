@@ -1,6 +1,6 @@
 {
   "name": "@lfiot/eslint-config-vue3",
-  "version": "1.0.1",
+  "version": "1.0.2-beta",
   "description": "IoT vue3 eslint config",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,8 @@
     "url": "https://github.com/js44852410/iot-vue3-eslint-config.git"
   },
   "devDependencies": {
+  },
+  "peerDependencies":{
     "@vue/eslint-config-standard": "^5.1.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.8.1",
@@ -22,6 +24,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-     "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^7.0.0"
   }
 }
