@@ -103,8 +103,7 @@ module.exports = {
         ts: 'never',
         mjs: 'never',
         jsx: 'never',
-        vue: 'never'
-      },
+      }
     ],
 
     // 强制每行的最大属性数
