@@ -1,6 +1,6 @@
 {
   "name": "@lfiot/eslint-config-vue3",
-  "version": "1.0.2-beta",
+  "version": "1.0.2-beta1",
   "description": "IoT vue3 eslint config",
   "main": "index.js",
   "scripts": {

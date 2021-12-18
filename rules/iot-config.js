@@ -95,6 +95,18 @@ module.exports = {
       functions: 'never',
     }],
 
+     'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        ts: 'never',
+        mjs: 'never',
+        jsx: 'never',
+        vue: 'never'
+      },
+    ],
+
     // 强制每行的最大属性数
     'vue/max-attributes-per-line': ['error', {
       singleline: 1,
