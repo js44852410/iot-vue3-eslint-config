@@ -551,7 +551,8 @@ module.exports = {
 
     // require or disallow space before function opening parenthesis
     // https://eslint.org/docs/rules/space-before-function-paren
-    'space-before-function-paren': ['error', 'never'],
+    // 方法之前有空格 -- 箭头函数可以有空格
+    'space-before-function-paren': ['off'],
 
     // require or disallow spaces inside parentheses
     'space-in-parens': ['error', 'never'],

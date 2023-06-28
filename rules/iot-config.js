@@ -24,7 +24,7 @@ module.exports = {
     // 不允许在顶级脚本作用域中声明var并命名function声明
     'no-implicit-globals': 'error',
 
-     // 标记this类或类类对象之外的关键字的用法
+    // 标记this类或类类对象之外的关键字的用法
     'no-invalid-this': 'warn',
 
     // 禁止使用new不将结果对象分配给变量的关键字的构造函数调用
@@ -48,8 +48,8 @@ module.exports = {
     // 不允许同一if-else-if链中出现重复条件
     'no-dupe-else-if': 'error',
 
-    // 禁止不必要的括号
-    'no-extra-parens': 'error',
+    // 禁止不必要的括号 -- ts 断言类型会报错先关掉
+    'no-extra-parens': 'off',
 
     // 禁止给导入的参数重新赋值
     'no-import-assign': 'error',
@@ -95,25 +95,8 @@ module.exports = {
       functions: 'never',
     }],
 
-     'import/extensions': [
-      'error',
-      'ignorePackages',
-      {
-        js: 'never',
-        ts: 'never',
-        mjs: 'never',
-        jsx: 'never',
-      }
-    ],
-
-    // 强制每行的最大属性数
-    'vue/max-attributes-per-line': ['error', {
-      singleline: 1,
-      multiline: {
-        max: 1,
-        allowFirstLine: false,
-      },
-    }],
+    // 组件名称格式
+    'vue/component-definition-name-casing': ['error', 'kebab-case'],
 
     // 自定义组件无内容强制自关闭
     'vue/html-self-closing': ['error', {
@@ -141,6 +124,7 @@ module.exports = {
         'EVENTS',
         'CONTENT'
       ],
-    }]
+    }],
+    '@typescript-eslint/no-unused-vars': 'off',
   },
 };

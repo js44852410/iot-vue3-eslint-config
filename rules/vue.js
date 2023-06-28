@@ -79,13 +79,16 @@ module.exports = {
     'vue/max-attributes-per-line': [
       'error',
       {
-        singleline: 3,
-        multiline: {
-          max: 3,
-          allowFirstLine: true,
+        singleline: {
+          "max": 1
         },
+        multiline: {
+          "max": 1
+        }
       },
     ],
+    'vue/name-property-casing': ['off'],
+    'vue/component-definition-name-casing': ['error', 'kebab-case'],
     'vue/multiline-html-element-content-newline': [
       'error',
       {
@@ -94,7 +97,6 @@ module.exports = {
       },
     ],
     'vue/mustache-interpolation-spacing': ['error', 'always'],
-    'vue/name-property-casing': ['error', 'kebab-case'],
     'vue/no-multi-spaces': [
       'error',
       {
@@ -151,5 +153,6 @@ module.exports = {
       },
     ],
     'vue/this-in-template': ['error', 'never'],
+    'vue/multi-word-component-names': 'off'
   },
 };

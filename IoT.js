@@ -30,16 +30,16 @@ module.exports = {
     'import',
   ],
   settings: { // 自定义规则
-     "import/resolver": {
+    "import/resolver": {
       "webpack": {
-      "config": "node_modules/@vue/cli-service/webpack.config.js"
+        "config": "node_modules/@vue/cli-service/webpack.config.js"
       }
     },
     'import/resolver': {
       node: {
         extensions: ['.mjs', '.js', '.json'],
       },
-    },  
+    },
     'import/core-modules': [
     ],
     'import/ignore': [
@@ -47,13 +47,14 @@ module.exports = {
       '\\.(coffee|scss|css|less|hbs|svg|json)$',
     ],
   },
-  rules: {},
+  rules: {
+    "vue/script-indent": ["error", 2, { "baseIndent": 1 }]
+  },
   overrides: [
     {
       files: ['*.vue'],
       rules: {
         indent: 'off',
-        'vue/script-indent': ['error', 2, { baseIndent: 1 }]
       }
     }
   ]
